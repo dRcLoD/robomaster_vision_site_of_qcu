@@ -11,12 +11,12 @@ hero:
       link: /guide/
     - theme: alt
       text: 27赛季招新任务
-      link: /guide/task-27
+      link: /guide/freshman/task-27
 
 features:
   - title: 新生入门
     details: 如果你是完全的新生，从这里开始。
-    link: /guide/freshman
+    link: /guide/freshman/
   - title: 老生入门
     details: 如果你已有一些基础，阅读这里。
     link: /guide/veteran
