@@ -1,5 +1,5 @@
 # 构建 VitePress 站点并部署到 GitHub Pages
-# 注意：docs/.vitepress/config.mjs 里的 base 必须与仓库名一致（当前为 /vision-docs/）
+# 注意：docs/.vitepress/config.mjs 里的 base 必须与仓库名一致（当前为 /robomaster_vision_site_of_qcu/）
 name: Deploy VitePress site to Pages
 
 on:

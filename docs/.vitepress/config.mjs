@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/vision-docs/',
+  base: '/robomaster_vision_site_of_qcu/',
   lang: 'zh-CN',
   title: '青橙战队 · 视觉组',
   description: '青橙战队视觉组使用指南：入门、任务、进度与往期赛季',
   // head 里的路径不会被自动加 base 前缀，需与 base 保持一致
-  head: [['link', { rel: 'icon', type: 'image/jpeg', href: '/vision-docs/images/uika.jpeg' }]],
+  head: [['link', { rel: 'icon', type: 'image/jpeg', href: '/robomaster_vision_site_of_qcu/images/uika.jpeg' }]],
 
   themeConfig: {
     nav: [
