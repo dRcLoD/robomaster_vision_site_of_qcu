@@ -12,7 +12,8 @@ export default defineConfig({
     nav: [
       { text: '使用指南', link: '/guide/' },
       { text: '27赛季任务', link: '/guide/freshman/task-27' },
-      { text: '往期赛季', link: '/guide/seasons' }
+      { text: '往期赛季', link: '/guide/seasons' },
+      { text: '资料下载', link: '/downloads' }
     ],
 
     sidebar: [
@@ -41,6 +42,10 @@ export default defineConfig({
           { text: '当前进度', link: '/guide/progress' },
           { text: '往期赛季', link: '/guide/seasons' }
         ]
+      },
+      {
+        text: '资源',
+        items: [{ text: '资料下载', link: '/downloads' }]
       }
     ],
 
