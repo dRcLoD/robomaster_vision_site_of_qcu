@@ -3,11 +3,9 @@ layout: home
 
 hero:
   name: 青橙战队 · 视觉组
-  text: 使用指南
-  tagline: 新成员从这里开始
   actions:
     - theme: brand
-      text: 阅读使用指南
+      text: 阅读知识库
       link: /guide/
     - theme: alt
       text: 27赛季招新任务

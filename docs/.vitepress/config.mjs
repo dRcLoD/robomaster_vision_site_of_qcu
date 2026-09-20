@@ -4,21 +4,16 @@ export default defineConfig({
   base: '/robomaster_vision_site_of_qcu/',
   lang: 'zh-CN',
   title: '青橙战队 · 视觉组',
-  description: '青橙战队视觉组使用指南：入门、任务、进度与往期赛季',
+  description: '青橙战队视觉组知识库：入门、任务、进度与往期赛季',
   // head 里的路径不会被自动加 base 前缀，需与 base 保持一致
   head: [['link', { rel: 'icon', type: 'image/jpeg', href: '/robomaster_vision_site_of_qcu/images/uika.jpeg' }]],
 
   themeConfig: {
-    nav: [
-      { text: '使用指南', link: '/guide/' },
-      { text: '27赛季任务', link: '/guide/freshman/task-27' },
-      { text: '往期赛季', link: '/guide/seasons' },
-      { text: '资料下载', link: '/downloads' }
-    ],
+    nav: [],
 
     sidebar: [
       {
-        text: '使用指南',
+        text: '知识库',
         items: [{ text: '总览', link: '/guide/' }]
       },
       {
@@ -30,6 +25,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '写在最前面的话', link: '/guide/freshman/preface' },
+              { text: '视觉入门', link: '/guide/freshman/vision-intro' },
               { text: '27赛季招新任务', link: '/guide/freshman/task-27' }
             ]
           },
