@@ -17,7 +17,7 @@ features:
     link: /guide/freshman/
   - title: 老生入门
     details: 如果你已有一些基础，阅读这里。
-    link: /guide/veteran
+    link: /guide/veteran/
   - title: 当前进度
     details: 了解当前进度和你需要干什么。
     link: /guide/progress

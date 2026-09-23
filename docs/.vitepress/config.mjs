@@ -29,7 +29,18 @@ export default defineConfig({
               { text: '27赛季招新任务', link: '/guide/freshman/task-27' }
             ]
           },
-          { text: '老生入门', link: '/guide/veteran' }
+          {
+            text: '老生入门',
+            link: '/guide/veteran/',
+            collapsed: false,
+            items: [
+              { text: '写在前面的话', link: '/guide/veteran/preface' },
+              { text: '如何使用 Linux', link: '/guide/veteran/linux' },
+              { text: '机甲大师规则', link: '/guide/veteran/rules' },
+              { text: 'AI 使用教程', link: '/guide/veteran/ai' },
+              { text: '如何使用 git 和 gitee/github', link: '/guide/veteran/git' }
+            ]
+          }
         ]
       },
       {
