@@ -44,6 +44,10 @@ export default defineConfig({
         ]
       },
       {
+        text: '算法组',
+        items: [{ text: '总览', link: '/algorithm/' }]
+      },
+      {
         text: '赛季',
         items: [
           { text: '当前进度', link: '/guide/progress' },
